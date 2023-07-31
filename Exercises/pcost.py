@@ -12,4 +12,5 @@ def portfolio_cost(filename):
                 print("Reason:", e)
     return total_price
 
-print(portfolio_cost("../Data/portfolio3.dat"))
+if __name__ == '__main__':
+    print(portfolio_cost("../Data/portfolio.dat"))
